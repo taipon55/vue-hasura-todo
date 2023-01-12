@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <h1>{{ title }}</h1>
-    <h2>hello</h2>
-  </div>
+  <v-app>
+    <div>
+      <v-main>
+        <v-btn>追加</v-btn>
+      </v-main>
+    </div>
+  </v-app>
 </template>
 
 <script>
