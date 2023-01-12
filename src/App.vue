@@ -1,8 +1,12 @@
 <template>
   <v-app>
     <div>
-      <TodoList title="TodoList" />
-      <TodoHeader />
+      <template>
+        <TodoHeader />
+      </template>
+      <template>
+        <TodoList title="TodoList" />
+      </template>
     </div>
   </v-app>
 </template>
